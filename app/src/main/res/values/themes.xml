@@ -22,4 +22,9 @@
     <style name="Theme.MadLevel7Task2.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.MadLevel7Task2.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.MadLevel7Task2.SplashActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor"> @color/design_default_color_primary_dark</item>
+        <item name="android:background">@color/design_default_color_primary_dark</item>
+    </style>
 </resources>

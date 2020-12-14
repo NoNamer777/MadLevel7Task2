@@ -1,8 +1,9 @@
-package com.nonamer777.madlevel7task2
+package com.nonamer777.madlevel7task2.ui
 
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import com.nonamer777.madlevel7task2.R
 
 class MainActivity: AppCompatActivity() {
 

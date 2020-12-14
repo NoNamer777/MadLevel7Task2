@@ -1,10 +1,11 @@
-package com.nonamer777.madlevel7task2
+package com.nonamer777.madlevel7task2.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.nonamer777.madlevel7task2.R
 
 /**
  * A [Fragment] subclass that serves as the starting screen after the splash screen.
