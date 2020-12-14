@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Mad: Level 7 - Task 2</string>
+    <string name="notification_message_no_option_selected">Please select an option</string>
+    <string name="notification_message_wrong_answer">Wrong Answer</string>
+    <string name="notification_message_correct_answer">That\'s right!</string>
+    <string name="notification_message_quiz_completed">Quiz Completed</string>
     <string name="header_splash_title">Quiz Master Kotlin</string>
 
     <string name="fragment_label_home">Home Fragment</string>
@@ -10,4 +14,8 @@
     <string name="btn_start_quiz">start quiz</string>
 
     <string name="fragment_label_question">Question Fragment</string>
+    <string name="label_question_tracker_text">%1$d / %2$d</string>
+    <string name="label_question_text" />
+    <string name="radio_btn_text_option" />
+    <string name="btn_text_confirm_answer">confirm answer</string>
 </resources>
