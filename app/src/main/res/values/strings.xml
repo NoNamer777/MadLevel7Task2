@@ -1,7 +1,13 @@
 <resources>
     <string name="app_name">Mad: Level 7 - Task 2</string>
-    <string name="fragment_label_home">Home Fragment</string>
-
-    <string name="fragment_label_questions_overview">Questions Overview Fragment</string>
     <string name="header_splash_title">Quiz Master Kotlin</string>
+
+    <string name="fragment_label_home">Home Fragment</string>
+    <string name="header_title_home_text">Welcome to the Quiz Master Kotlin</string>
+    <string name="paragraph_instructions">
+        After pressing start you will start the quiz. How many questions will you be able to answer right? Test your knowledge about Dungeons and Dragons 5th edition right now!
+    </string>
+    <string name="btn_start_quiz">start quiz</string>
+
+    <string name="fragment_label_question">Question Fragment</string>
 </resources>
