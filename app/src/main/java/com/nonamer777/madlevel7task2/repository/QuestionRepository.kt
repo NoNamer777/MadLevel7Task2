@@ -26,6 +26,7 @@ class QuestionRepository {
         for (questionObj in data) {
             questions.add(questionObj.toObject())
         }
+        _questions.value = questions
 
     }} catch (exception: Exception) {
         throw QuestionRetrievalException("Retrieval-firebase-task has failed")
