@@ -1,6 +1,5 @@
 package com.nonamer777.madlevel7task2.repository
 
-import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.google.firebase.firestore.FirebaseFirestore
@@ -9,7 +8,6 @@ import com.nonamer777.madlevel7task2.model.Question
 import com.nonamer777.madlevel7task2.repository.exception.QuestionRetrievalException
 import kotlinx.coroutines.tasks.await
 import kotlinx.coroutines.withTimeout
-import java.lang.Exception
 
 class QuestionRepository {
 
@@ -28,7 +26,6 @@ class QuestionRepository {
         for (questionObj in data) {
             questions.add(questionObj.toObject())
         }
-        Log.d("QuestionRepo", questions.toString())
 
     }} catch (exception: Exception) {
         throw QuestionRetrievalException("Retrieval-firebase-task has failed")
